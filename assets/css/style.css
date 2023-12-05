@@ -41,7 +41,7 @@ nav ul li a {
     background-color: darkblue;
 
 }
-.container img {
+.container .profile-img {
    height: 300px;
    width: 315px;
    border-radius: 50%;
@@ -55,3 +55,13 @@ nav ul li a {
  .head-text{
     color: white;
 }
+.container .profile-icon-img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.container .profile-icon {
+    display: flex;
+}
+
