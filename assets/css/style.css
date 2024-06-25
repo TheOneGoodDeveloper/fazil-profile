@@ -32,9 +32,13 @@ nav ul li {
 nav ul li:hover {
     color:blue
 }
+.title a {
+    color: white;
+    text-decoration: none;
+}
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color:blue;
     font-weight: bold;
 }
 
@@ -44,9 +48,9 @@ nav ul li a {
 }
 .title-bg {
     background: rgb(238,174,202);
-    background: linear-gradient(152deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
-    
+    background: linear-gradient(152deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);     
 }
+
 .container .profile-img {
    height: 300px;
    width: 315px;
@@ -87,11 +91,27 @@ nav ul li a {
 }
 
 .skills-bg{
-    background-color: rgba(148,187,233,1);
+    background-color: rgba(199, 168, 138, 0.342);
+    
 }
 
 .card:hover{
     transition: all .4s ease;
     transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
+
+/* skills */
+
+.degree {
+    color: orange;
+}
+.edu-card {
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}   
+
